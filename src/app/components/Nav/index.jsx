@@ -48,8 +48,8 @@ export default function Nav() {
   }
 
   return (
-    <nav className="bg-slate-900">
-      <form onSubmit={handleSubmit}>
+    <nav className="bg-slate-900 h-[100%]">
+      <form className="flex h-[100%]" onSubmit={handleSubmit}>
         <Logo />
         <Search setValueSearch={setValueSearch} valueSearch={valueSearch} />
         <div className="flex-[1] text-white">Op1</div>
