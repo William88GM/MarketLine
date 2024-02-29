@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+header {
+  height: 8.5vh;
+}
+nav {
+  height: 100%;
+}
+header form {
+  height: 100%;
+  display: flex;
+}
+header form * {
+  height: 100%;
+}
+article {
+  display: flex;
+  flex-direction: column;
+}
+.hola {
+  margin: 20px;
+}
