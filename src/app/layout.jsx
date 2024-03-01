@@ -15,7 +15,7 @@ export default function RootLayout({ children }) {
         <header className="h-[8.5vh]">
           <Nav />
         </header>
-        <main className="">{children}</main>
+        <main>{children}</main>
         <footer></footer>
       </body>
     </html>

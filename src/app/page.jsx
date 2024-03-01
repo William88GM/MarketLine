@@ -100,7 +100,8 @@ export default function Home() {
     },
   ];
   return (
-    <article className="bg-slate-500 ">
+    // <article className="bg-slate-500 grid"> alternativa
+    <article className="bg-slate-500 flex flex-col">
       {arraySections &&
         arraySections.map((e, i) => (
           <PromoCard key={i} arraySections={arraySections[i]} />
