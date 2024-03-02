@@ -5,10 +5,49 @@
   box-sizing: border-box !important;
   padding: 0;
   margin: 0;
-  outline: 1px solid red;
+  /* outline: 1px solid red; */
 }
 
 img {
   max-height: 100%;
   max-width: 100%;
+}
+
+/* backgroundImage:
+            "linear-gradient(to left bottom, #9c6bd1, #8367c4, #6c62b6, #575ca6, #445595, #3b4e87, #33467a, #2b3f6c, #27365f, #232e53, #1f2647, #1a1e3b)",
+         */
+
+.onlyTwoLines {
+  max-height: fit-content;
+  min-height: fit-content;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -webkit-inline-box;
+}
+
+/* Estilos para la barra de desplazamiento en WebKit (Safari y Chrome) */
+body::-webkit-scrollbar,
+.scrollBar::-webkit-scrollbar {
+  display: block;
+  width: 6px; /* Ancho de la barra de desplazamiento */
+  height: 3px;
+}
+
+body::-webkit-scrollbar-track,
+.scrollBar::-webkit-scrollbar-track {
+  background: #10101000;
+  /* Color de fondo de la pista de la barra de desplazamiento */
+}
+
+body::-webkit-scrollbar-thumb,
+.scrollBar::-webkit-scrollbar-thumb {
+  background: #729dd140; /* Color del "pulgarcito" de la barra de desplazamiento */
+  border-radius: 10px; /* Radio de borde para el "pulgarcito" */
+}
+
+body::-webkit-scrollbar-thumb:hover,
+.scrollBar::-webkit-scrollbar-thumb:hover {
+  background: #729dd170; /* Cambio de color al pasar el ratón sobre el "pulgarcito" */
 }
