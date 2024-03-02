@@ -31,6 +31,36 @@ export default function Home() {
           image:
             "https://i1.sndcdn.com/avatars-000613810602-q3mzoi-t500x500.jpg",
         },
+        {
+          name: `Product 6`,
+          image:
+            "https://i1.sndcdn.com/avatars-000613810602-q3mzoi-t500x500.jpg",
+        },
+        {
+          name: `Product 7`,
+          image:
+            "https://i1.sndcdn.com/avatars-000613810602-q3mzoi-t500x500.jpg",
+        },
+        {
+          name: `Product 8`,
+          image:
+            "https://i1.sndcdn.com/avatars-000613810602-q3mzoi-t500x500.jpg",
+        },
+        {
+          name: `Product 9`,
+          image:
+            "https://i1.sndcdn.com/avatars-000613810602-q3mzoi-t500x500.jpg",
+        },
+        {
+          name: `Product 10`,
+          image:
+            "https://i1.sndcdn.com/avatars-000613810602-q3mzoi-t500x500.jpg",
+        },
+        {
+          name: `Product 11`,
+          image:
+            "https://i1.sndcdn.com/avatars-000613810602-q3mzoi-t500x500.jpg",
+        },
       ],
     },
     {
