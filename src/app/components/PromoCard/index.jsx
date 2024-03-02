@@ -22,7 +22,7 @@ export default function PromoCard({ arraySections }) {
       <h3 className="flex-1 [font-size:2.2vh] p-1 text-white ">
         Company title
       </h3>
-      <div className="hola flex-[9] flex gap-10 scroll-bar pb-2 overflow-x-scroll ">
+      <div className="scrollSnap px-8 flex-[9] flex gap-10 scrollBar pb-2 overflow-x-scroll ">
         {/*El overflow x ocupaba espacio en Y??? >:( */}
         {arraySections &&
           arraySections.products.map((element, i) => (
