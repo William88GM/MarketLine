@@ -12,6 +12,9 @@ img {
   max-height: 100%;
   max-width: 100%;
 }
+.hola {
+  scroll-snap-type: x mandatory;
+}
 
 /* backgroundImage:
             "linear-gradient(to left bottom, #9c6bd1, #8367c4, #6c62b6, #575ca6, #445595, #3b4e87, #33467a, #2b3f6c, #27365f, #232e53, #1f2647, #1a1e3b)",

@@ -22,13 +22,13 @@ export default function PromoCard({ arraySections }) {
       <h3 className="flex-1 [font-size:2.2vh] p-1 text-white ">
         Company title
       </h3>
-      <div className="flex-[9] flex scrollBar scroll-bar pb-2 overflow-x-scroll gap-2 ">
+      <div className="hola flex-[9] flex gap-10 scroll-bar pb-2 overflow-x-scroll ">
         {/*El overflow x ocupaba espacio en Y??? >:( */}
         {arraySections &&
           arraySections.products.map((element, i) => (
             <div
               key={i}
-              className={`rounded-lg flex flex-col gap-2 p-1 items-center justify-center`}
+              className={`snap-center rounded-lg flex flex-col gap-2 p-1 items-center justify-center`}
               style={{
                 backgroundImage:
                   "linear-gradient(to left bottom, #0f172a, #171d32, #1f233b, #272a43, #30304c, #30304c, #30304c, #30304c, #272a43, #1f233b, #171d32, #0f172a)",
