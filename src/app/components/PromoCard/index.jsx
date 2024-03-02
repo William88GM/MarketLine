@@ -15,7 +15,7 @@ export default function PromoCard({ arraySections }) {
         minHeight: `${tamaño + 50}vh`,
         marginBottom: `${separacion}vh`,
         maxHeight: `${tamaño + 50}vh`,
-        backgroundColor: "#2A283D",
+        backgroundColor: "#0F172A",
       }}
       className={`  p-2  flex flex-col  rounded-lg `}
     >
@@ -31,7 +31,7 @@ export default function PromoCard({ arraySections }) {
               className={`rounded-lg flex flex-col gap-2 p-1 items-center justify-center`}
               style={{
                 backgroundImage:
-                  "linear-gradient(to left bottom, #2a283d, #2c2d44, #2e324b, #303753, #313c5a, #313c5a, #313c5a, #313c5a, #303753, #2e324b, #2c2d44, #2a283d)",
+                  "linear-gradient(to left bottom, #0f172a, #171d32, #1f233b, #272a43, #30304c, #30304c, #30304c, #30304c, #272a43, #1f233b, #171d32, #0f172a)",
 
                 minWidth: `${tamaño / 2 + 25}vh`,
                 maxWidth: `${tamaño / 2 + 25}vh`,
