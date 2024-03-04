@@ -1,5 +1,4 @@
-/* eslint-disable @next/next/no-img-element */
-import PromoCard from "@/app/components/PromoCard/index";
+import PromoSection from "@/app/components/PromoSection/index";
 export default function Home() {
   let arraySections = [
     {
@@ -130,11 +129,10 @@ export default function Home() {
     },
   ];
   return (
-    // <article className="bg-slate-500 grid"> alternativa
     <article className="bg-slate-500 p-3 flex flex-col">
       {arraySections &&
         arraySections.map((e, i) => (
-          <PromoCard key={i} arraySections={arraySections[i]} />
+          <PromoSection key={i} arraySections={arraySections[i]} />
         ))}
     </article>
   );
