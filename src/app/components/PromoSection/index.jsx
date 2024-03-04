@@ -1,6 +1,6 @@
 "use client";
 import { useEffect, useRef } from "react";
-import Card from "@/app/components/PromoCard/Card";
+import Card from "@/app/components/PromoSection/Card";
 
 export default function PromoSection({ arraySections }) {
   /* Este es un componente pensado en que,
