@@ -1,8 +1,8 @@
 "use client";
 import { useEffect, useRef } from "react";
-import Card from "@/app/components/PromoSection/Card";
+import Card from "./Card";
 
-export default function PromoSection({ arraySections }) {
+export default function ProductCarrusel({ arraySections }) {
   /* Este es un componente experimental pensado en que,
      dado un tamaño de un elemento padre basado en el viewport, 
      sus hijos se adapten a ese tamaño, tanto fuentes como longitud de elementos
@@ -42,7 +42,7 @@ export default function PromoSection({ arraySections }) {
       >
         <button
           className=" sticky top-[35%] rounded-lg border-none px-1
-          h-[10vh] flex items-center"
+             h-[10vh] flex items-center"
           style={{
             left: "-15px",
             fontSize: "4vh",

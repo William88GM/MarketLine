@@ -1,5 +1,3 @@
-import React, { useState } from "react";
-
 export default function Search({ setValueSearch, valueSearch }) {
   function handleSearch(evt) {
     setValueSearch(evt.target.value);

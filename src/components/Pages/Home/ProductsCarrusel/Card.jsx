@@ -1,6 +1,5 @@
 import React, { useEffect, useRef } from "react";
 
-/* eslint-disable @next/next/no-img-element */
 export default function Card({ cardRef, tamaño, price, element }) {
   return (
     <div

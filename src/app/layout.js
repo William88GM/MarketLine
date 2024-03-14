@@ -1,7 +1,8 @@
-import { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import Nav from "@/app/components/Nav/index";
+import Nav from "@/components/Global/Nav";
+
+const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Create Next App",

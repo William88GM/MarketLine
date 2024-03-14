@@ -1,22 +1,18 @@
 "use client";
-
-import { useOfflineHistory } from "@/hooks/useOfflineHistory";
-import Link from "next/link";
-import { useRouter } from "next/navigation";
 import { useState } from "react";
 import Logo from "./Logo";
 import Search from "./Search";
+import { useRouter } from "next/navigation";
 import Menu from "./Menu";
-import { SearchParamsContext } from "next/dist/shared/lib/hooks-client-context.shared-runtime";
 
 export default function Nav() {
   const [historyList, setHistoryList] = useState(""); // !!! Eliminar
   const [valueSearch, setValueSearch] = useState("");
   const router = useRouter();
-  const { pushHistoryItem, deleteHistoryItem } = useOfflineHistory(
-    historyList,
-    setHistoryList //Estados globales de next por definir !!!
-  );
+  // const { pushHistoryItem, deleteHistoryItem } = useOfflineHistory(
+  //   historyList,
+  //   setHistoryList //Estados globales de next por definir !!!
+  // );
 
   function handleHistoryLogged() {
     // adaptar segun el back !!!
