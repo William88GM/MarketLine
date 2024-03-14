@@ -1,8 +1,8 @@
-import Banner from "@/components/Pages/Home/Banner/index";
-import HistoryCarrusel from "@/components/Pages/Home/ProductsCarrusel/index";
-import PromosCarrusel from "@/components/Pages/Home/ProductsCarrusel/index";
-import PromosBySection from "@/components/Pages/Home/PromosBySection/index";
-import RecomendatedBySection from "@/components/Pages/Home/RecomendatedBySection/index";
+import Banner from "@/components/Pages/Home/Banner/index.jsx";
+import HistoryCarrusel from "@/components/Pages/Home/ProductsCarrusel/index.jsx";
+import PromosCarrusel from "@/components/Pages/Home/ProductsCarrusel/index.jsx";
+import PromosBySection from "@/components/Pages/Home/PromosBySection/index.jsx";
+import RecomendatedBySection from "@/components/Pages/Home/RecomendatedBySection/index.jsx";
 
 export default function Home() {
   let historyProducts = {
