@@ -107,12 +107,12 @@ export default function Home() {
     ],
   };
   return (
-    <>
+    <article className="p-6 flex flex-col gap-28">
       <Banner />
       <PromosBySection />
       <HistoryCarrusel arraySections={historyProducts} />
       <PromosCarrusel arraySections={promoProducts} />
       <RecomendatedBySection />
-    </>
+    </article>
   );
 }

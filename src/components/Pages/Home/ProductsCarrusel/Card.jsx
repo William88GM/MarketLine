@@ -13,7 +13,7 @@ export default function Card({ cardRef, tamaño, price, element }) {
         maxWidth: `${tamaño / 2 + 25}vh`,
       }}
     >
-      <h5 class=" size-fit [font-size:2.5vh] font-bold tracking-tight text-gray-900 dark:text-white">
+      <h5 className="size-fit [font-size:2.5vh] font-bold tracking-tight text-gray-900 dark:text-white">
         Recomendation Title
       </h5>
 
