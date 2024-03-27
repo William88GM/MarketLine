@@ -88,7 +88,7 @@ export default function RecomendatedBySection() {
 
         {recomendations.map((e, i) => (
           <img
-            className="w-48"
+            className="w-48 snap-center"
             ref={cardRef}
             key={i}
             src={e.image}
